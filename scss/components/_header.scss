@@ -1,0 +1,10 @@
+.col{
+    display: flex;
+    justify-content: center;
+    .header_image{
+        display: flex;
+        height: 150px;
+        width: 150px;
+        position: center;
+    }
+}

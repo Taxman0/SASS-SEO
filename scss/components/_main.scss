@@ -1,0 +1,32 @@
+.carousel-inner{
+    height: 100vh;
+}
+
+.carousel-inner{
+    &img{
+        background-size: cover;
+    }
+}
+
+.section_box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.section_box{
+    .card{
+        border: 1px solid;
+        box-shadow: 7px 7px 7px;
+    }
+}
+
+.section_box{
+    .card{
+        .btn-primary{
+            background-color: #fbb4bf;
+            border: none;
+        }    
+    }
+}

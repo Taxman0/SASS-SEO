@@ -1,0 +1,31 @@
+.navbar-light{
+    .container-fluid{
+        width: auto;
+    }
+    
+    .navbar-brand{
+        background-color: #8ad3d2;
+        color: white;
+        padding: 0.5rem;
+    }
+    .navbar-nav{
+        .nav-link{
+            color: white;
+        }
+    }
+}
+
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #fbb4bf;
+    padding: 0.2rem;
+}

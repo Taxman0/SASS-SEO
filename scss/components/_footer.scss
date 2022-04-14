@@ -1,0 +1,20 @@
+.footer_box{
+    display: flex;
+    justify-content: space-around;
+    .container{
+        max-width: 100%;
+        .row{
+            .col{
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+                .footer_image{
+                    display: flex;
+                    height: 100px;
+                    width: 100px;
+                    position: end;
+                }
+            }
+        }   
+    }
+}
