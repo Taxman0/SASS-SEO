@@ -1,8 +1,20 @@
+/*-------------CFG FOOTER GENERAL-----------*/
 .footer_box{
     display: flex;
     justify-content: space-around;
     .container{
         max-width: 100%;
+        .col_footer{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            .footer_image{
+                display: flex;
+                height: 100px;
+                width: 100px;
+                position: end;
+            }
+        }
         .row{
             .col{
                 display: flex;

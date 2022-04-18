@@ -1,0 +1,158 @@
+/*-----------MAIN INDEX-------------*/
+.carousel-inner{
+    height: 100vh;
+}
+
+.carousel-inner{
+    &img{
+        background-size: cover;
+    }
+}
+
+.section_box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.section_box{
+    .card{
+        border: 1px solid;
+        box-shadow: 7px 7px 7px;
+    }
+}
+
+.section_box{
+    .card{
+        .btn-primary{
+            background-color: #fbb4bf;
+            border: none;
+        }    
+    }
+}
+
+/*-----------MAIN COMO-COMPRAR-------------*/
+
+.main_comocomprar{
+    display: flex;
+    justify-content: space-between;
+    height: 200vh;
+    .como_instrucciones{
+        text-align: center;
+        padding: 10px;
+    }
+    .como_donde{
+        border: solid 1px coral;
+        text-decoration: double;
+        padding: 10px;
+    }
+    .como_cuando{
+        color: #8ad3d2;
+        text-transform: lowercase;
+        padding: 20px;
+        text-justify: newspaper;
+    }
+}
+
+/*----------MAIN CONTACTO-------------*/
+.main_contacto{
+    display: flex;
+    justify-content: center;
+    .columna1{
+        width: 40vw;
+        height: 70vh;
+        margin-top: 10vh;
+        .card{
+            width: 100%;
+            text-align: center;
+            border: none;
+            background: transparent;
+            .columna1-redes{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                .link-contacto{
+                    text-decoration: none;
+                }
+            }
+        }
+        
+    }
+    .columna2{
+        width: 40vw;
+        height: 70vh;
+        margin-top: 10vh;
+        .form-title{
+            width: 100%;
+            text-align: center;
+        }        
+        form{
+            width: 100%;
+            margin: auto;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+    }
+}
+
+
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-color: #fbb4bf;
+    background: transparent;
+}
+
+input:hover, textarea:hover{
+    background-color: #8ad3d2;
+}
+
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+.btn:hover{
+    background: #8ad3d2;
+}
+
+/*------------MAIN TORTAS-------------*/
+.section_tortas1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.section_tortas2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/*--------------MAIN DESAYUNOS-----------*/
+.section_desayunos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/*--------------MAIN FECHAS ESPECIALES----------*/
+.fechas_especiales{
+    height: 100vh;
+}
+
+
+
+
+

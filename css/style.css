@@ -8,6 +8,18 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  /* The image used */
+  background-image: url(https://wallpaperaccess.com/full/1179529.jpg);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------CFG HEADER---------*/
 .col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,6 +38,7 @@
   position: center;
 }
 
+/*-------CFG NAV--------*/
 .navbar-light .container-fluid {
   width: auto;
 }
@@ -57,6 +70,11 @@
   padding: 0.2rem;
 }
 
+.section_box .card .btn-primary:hover {
+  background-color: #8ad3d2;
+}
+
+/*-----------MAIN INDEX-------------*/
 .carousel-inner {
   height: 100vh;
 }
@@ -87,6 +105,161 @@
   border: none;
 }
 
+/*-----------MAIN COMO-COMPRAR-------------*/
+.main_comocomprar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 200vh;
+}
+
+.main_comocomprar .como_instrucciones {
+  text-align: center;
+  padding: 10px;
+}
+
+.main_comocomprar .como_donde {
+  border: solid 1px coral;
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  padding: 10px;
+}
+
+.main_comocomprar .como_cuando {
+  color: #8ad3d2;
+  text-transform: lowercase;
+  padding: 20px;
+  text-justify: newspaper;
+}
+
+/*----------MAIN CONTACTO-------------*/
+.main_contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_contacto .columna1 {
+  width: 40vw;
+  height: 70vh;
+  margin-top: 10vh;
+}
+
+.main_contacto .columna1 .card {
+  width: 100%;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+
+.main_contacto .columna1 .card .columna1-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main_contacto .columna1 .card .columna1-redes .link-contacto {
+  text-decoration: none;
+}
+
+.main_contacto .columna2 {
+  width: 40vw;
+  height: 70vh;
+  margin-top: 10vh;
+}
+
+.main_contacto .columna2 .form-title {
+  width: 100%;
+  text-align: center;
+}
+
+.main_contacto .columna2 form {
+  width: 100%;
+  margin: auto;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-color: #fbb4bf;
+  background: transparent;
+}
+
+input:hover, textarea:hover {
+  background-color: #8ad3d2;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.btn:hover {
+  background: #8ad3d2;
+}
+
+/*------------MAIN TORTAS-------------*/
+.section_tortas1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+.section_tortas2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+/*--------------MAIN DESAYUNOS-----------*/
+.section_desayunos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+/*--------------MAIN FECHAS ESPECIALES----------*/
+.fechas_especiales {
+  height: 100vh;
+}
+
+/*-------------CFG FOOTER GENERAL-----------*/
 .footer_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,6 +270,27 @@
 
 .footer_box .container {
   max-width: 100%;
+}
+
+.footer_box .container .col_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer_box .container .col_footer .footer_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  position: end;
 }
 
 .footer_box .container .row .col {

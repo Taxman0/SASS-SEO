@@ -1,16 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-}
-
+@import "./base/reset";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "./components/header";
 @import "./components/nav";
-@import "./components/main";
+@import "./components/maingeneral";
 @import "./components/footer";
-
-
-
